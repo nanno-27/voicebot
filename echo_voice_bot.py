@@ -22,6 +22,6 @@ def handle_voice(message):
         else:
             bot.reply_to(message, 'Не удалось распознать текст.')
     else:
-        bot.reply_to(message, 'Произошла ошибка при распознавании аудио.')
+        bot.reply_to(message, 'Произошла ошибка со стороны сервиса.')
 
 bot.polling()
